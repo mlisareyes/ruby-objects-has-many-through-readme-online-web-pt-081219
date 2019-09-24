@@ -29,6 +29,5 @@ class Customer
     meals.map do |meal|
       meal.waiter
     end
-  binding.pry
   end
 end
