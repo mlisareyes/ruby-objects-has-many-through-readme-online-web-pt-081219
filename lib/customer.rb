@@ -1,3 +1,4 @@
+require 'pry'
 class Customer
   
   attr_accessor :name, :age 
@@ -28,5 +29,6 @@ class Customer
     meals.map do |meal|
       meal.waiter
     end
+  binding.pry
   end
 end
